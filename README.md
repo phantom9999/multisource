@@ -10,5 +10,5 @@
 - src 源码
 
 ## 依赖
-kafka, json-lib, mongodb的java驱动, hbase驱动
+kafka, json-lib, mongodb的java驱动, hbase驱动,sigar
 
