@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>producer.name</name>
+        <value>011==site1</value>
+        <description>name</description>
+    </item>
+    <item>
+        <name>producer.dir</name>
+        <value>/var/log/apache2/</value>
+        <description>the log dir of apache2</description>
+    </item>
+    <item>
+        <name>producer.filename</name>
+        <value>access_log</value>
+        <description>the file name of access log</description>
+    </item>
+    <item>
+        <name>producer.format</name>
+        <value>%h\t%l\t%u\t%t\t%r\t%>s\t%b\t%{Referer}i\t%{User-Agent}i</value>
+        <description>every item is joined by "\t"</description>
+    </item>
+    <item>
+        <name>producer.sleeptime</name>
+        <value>3000</value>
+        <!--<value>600000</value>-->
+        <description>the time of worker get into sleeping.</description>
+    </item>
+    <item>
+        <name>producer.topic</name>
+        <value>access.apache</value>
+        <description>the topic of accesslog</description>
+    </item>
+    <item>
+        <name>producer.class</name>
+        <value>producer.worker.access.apache.Main</value>
+    </item>
+</configuration>

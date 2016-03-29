@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>bootstrap.servers</name>
+        <value>10.6.11.97:9092</value>
+    </item>
+    <item>
+        <name>enable.auto.commit</name>
+        <value>true</value>
+    </item>
+    <item>
+        <name>auto.commit.interval.ms</name>
+        <value>1000</value>
+    </item>
+    <item>
+        <name>session.timeout.ms</name>
+        <value>30000</value>
+    </item>
+    <item>
+        <name>key.deserializer</name>
+        <value>org.apache.kafka.common.serialization.StringDeserializer</value>
+    </item>
+    <item>
+        <name>value.deserializer</name>
+        <value>org.apache.kafka.common.serialization.StringDeserializer</value>
+    </item>
+</configuration>

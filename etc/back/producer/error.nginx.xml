@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>producer.name</name>
+        <value>022==site1</value>
+        <description>name</description>
+    </item>
+    <item>
+        <name>producer.dir</name>
+        <value>/var/log/nginx/</value>
+        <description>the log dir of apache2</description>
+    </item>
+    <item>
+        <name>producer.filename</name>
+        <value>error.log</value>
+        <description>the file name of log</description>
+    </item>
+    <item>
+        <name>producer.format</name>
+        <value>msg</value>
+        <description>every item is joined by "\t"</description>
+    </item>
+    <item>
+        <name>producer.sleeptime</name>
+        <value>3000</value>
+        <!--<value>600000</value>-->
+        <description>the time of worker get into sleeping.</description>
+    </item>
+    <item>
+        <name>producer.topic</name>
+        <value>error.nginx</value>
+        <description>the topic of log</description>
+    </item>
+    <item>
+        <name>producer.class</name>
+        <value>producer.worker.error.apache.Main</value>
+    </item>
+</configuration>

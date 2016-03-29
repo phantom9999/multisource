@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>consumer.name</name>
+        <value>error.nginx==site1</value>
+        <description>worker的名字</description>
+    </item>
+    <item>
+        <name>consumer.group</name>
+        <value>error.nginx</value>
+    </item>
+    <item>
+        <name>consumer.topic</name>
+        <value>error.nginx</value>
+        <description>处理类的类名</description>
+    </item>
+    <item>
+        <name>consumer.threads</name>
+        <value>3</value>
+        <description>当前组的线程数</description>
+    </item>
+    <item>
+        <name>consumer.class</name>
+        <value>consumer.worker.error.apache.Main</value>
+    </item>
+    <item>
+        <name>consumer.format</name>
+        <value>msg</value>
+        <description>存储格式</description>
+    </item>
+</configuration>

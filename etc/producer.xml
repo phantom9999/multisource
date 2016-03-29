@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>bootstrap.servers</name>
+        <value>10.6.11.97:9092</value>
+    </item>
+    <item>
+        <name>acks</name>
+        <value>all</value>
+    </item>
+    <item>
+        <name>retries</name>
+        <value>0</value>
+    </item>
+    <item>
+        <name>batch.size</name>
+        <value>16384</value>
+    </item>
+    <item>
+        <name>linger.ms</name>
+        <value>1</value>
+    </item>
+    <item>
+        <name>buffer.memory</name>
+        <value>33554432</value>
+    </item>
+    <item>
+        <name>key.serializer</name>
+        <value>org.apache.kafka.common.serialization.StringSerializer</value>
+    </item>
+    <item>
+        <name>value.serializer</name>
+        <value>org.apache.kafka.common.serialization.StringSerializer</value>
+    </item>
+</configuration>

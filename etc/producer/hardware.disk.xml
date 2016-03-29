@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <item>
+        <name>producer.name</name>
+        <value>hardware.disk==site1</value>
+        <description>name</description>
+    </item>
+    <item>
+        <name>producer.sleeptime</name>
+        <value>3000</value>
+        <!--<value>600000</value>-->
+        <description>the time of worker get into sleeping.</description>
+    </item>
+    <item>
+        <name>producer.topic</name>
+        <value>hardware.disk</value>
+        <description>the topic of accesslog</description>
+    </item>
+    <item>
+        <name>producer.class</name>
+        <value>producer.worker.hardware.disk.Main</value>
+    </item>
+</configuration>
